@@ -1,0 +1,70 @@
+.template_topbar{width:100%; background:url(../images/template-topbar-bg.png) repeat-x; position:fixed; z-index:10; top:0;}
+.template_titlewrapper{top:0; width:100%; left:0;}
+.template_titlewrappersmall{display: none}
+.template_title{position:absolute; height:100px; line-height:60px; float:left; display:block; width:100%; text-align:center; font-size:50px; color:#ffffff; top:0; left:0;}
+.template_title span{display:block; height:130px;}
+.template_topbar .navbar-default{border:none; background:none;}
+.template_topbar .navbar{border-radius:0;}
+.template_topbar .navbar-nav{float:none; margin:0 auto;}
+.template_topbar .navbar-default .navbar-nav>li>a{color:#ffffff;}
+.template_topbar .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#ececec;}
+.template_topbar .container-fluid>.navbar-collapse{background:#ca482a; opacity:0.9; border:none;}
+.template_topbar .navbar-default .navbar-nav>li>a{font-size:14px; padding:10px 10px; border-bottom:1px solid #e46142;}
+.template_topbar .navbar-default .navbar-toggle .icon-bar{background-color:#ffffff;}
+.clear{clear:both;}
+.template_menu{position:relative; top:10%;}
+.template_abt_pcsc_wrapper{background:#f0eeee; padding:50px 0 50px 0; width:100%; text-align:center;}
+.template_servicebox{background:#ffffff; border-radius:5px; padding:25px;}
+.template_serviceicon{background:#e46142; color:#ffffff; width:80px; height:80px; margin:0 auto; border-radius:5px; font-size:40px; line-height:80px; text-align:center;}
+.template_marginbot{margin-bottom:50px;}
+.template_abt_pcsc_wrapper1{background:#f0eeee; padding:50px 0 50px 0; width:100%; text-align:center;margin-top: 3%;height: auto;}
+.template_abt_pcsc_wrapper1 .template_wrapper1{margin-top: 9%;}
+.template_team_wrapper{background:#f0eeee;width:100%; padding:70px 0 50px 0; text-align:center;}
+.template_team_name{font-size:16px; color:#e46142; margin-top:10px;}
+.template_team_post{font-size:14px;}
+.template_workmargin{margin-bottom:50px;}
+.template_social{width:125px; margin:0 auto; padding:0;}
+.template_menu{position:relative; top:10%;}
+.template_social a{padding:0; margin:0; clear:both; display:block; padding:0;}
+.template_social ul{padding:0; margin:0; background:blue;}
+.template_social ul li{float:left; list-style:none; padding:0; margin:0; font-size:18px;}
+.template_social ul li a{margin:3px 1px; padding:0; color:#c8c8c8; border:1px solid #c8c8c8; width:28px; height:28px; line-height:28px;}
+.template_social ul li a:hover{color:#ffffff; border:1px solid #e46142; background:#e46142;}
+
+
+#top-menu li.active a{background:#fd704e; opacity:0.8; color:#FF6;}
+#top-menu a:hover{background:#fd704e; opacity:0.8; color:#FF6;}
+.navbar-collapse{box-shadow:none;}
+
+/*------------------------------------------------------
+Media Queries 
+--------------------------------------------------------*/
+
+@media (max-width:767px){
+	.template_titlewrapper{display:none;}
+	.template_titlewrappersmall{display:block;float:left; font-size:28px; color:#ffffff; line-height:50px; margin-left:20px;}
+	.template_topbar .container-fluid>.navbar-collapse{background:#ca482a; opacity:0.9; border:none;}
+	.template_topbar .navbar-default .navbar-nav>li>a{font-size:14px; padding:10px 10px; border-bottom:1px solid #e46142;}
+	.margin_bottom_1col{margin-bottom:20px;}
+	.margin_bottom_2col{margin-bottom:0;}
+	#top-menu{background:#ca482a; margin:0 -15px; opacity:0.9;}
+	.template_topbar .navbar-default .navbar-toggle .icon-bar{background-color:#ffffff;}
+	.carousel-inner .item img{height: 250px;width: 100%;}
+	.fff .thumbnail img{height: 50%; width: 100%;}
+
+
+	}
+@media (min-width: 768px){
+	.template_topbar{height:35px;}
+	.template_title{font-size:32px; line-height:50px;}
+	.template_topbar .navbar-nav{width:600px;}
+	.template_titlewrapper img{height: 90px;width: 100%}
+	.template_topbar .navbar{position:relative; top:-35px;}
+	.carousel-inner .item img{width: 100%;}
+
+	.template_topbar .navbar-default .navbar-nav>li>a{color:#ffffff; font-size:14px; padding:5px 25px;}
+	.slidernav a.previous{left:2%;}
+	.slidernav a.next{right:1%;}
+	.fff {position: relative;overflow: hidden;}
+
+}
